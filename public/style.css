@@ -1,0 +1,109 @@
+body{
+    background-color: rgb(240, 240, 20);
+}
+.main{
+    /* box-shadow: rgb(31, 30, 30) 1px 1px 10px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    color: white;
+    transition: 0.5s;
+}
+.main *{
+    text-align: center;
+}
+.main h1{
+    font-size: 115px;
+    text-shadow: rgb(41, 21, 0) 1px 1px 10px;
+    margin: 30px;
+}
+.main ol{
+    width: 40%;
+    margin: 0 auto;
+    font-weight: bold;
+}
+.main ol li{
+    /* text-align: left; */
+    /* background-color: yellowgreen; */
+    padding: 8px;
+    color: rgb(15, 13, 13);
+    font-size: 17px;
+}
+.main h3{
+    color: tomato;
+}
+.main button{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    color: black;
+    outline: none;
+    border: 1px solid black;
+    background-color: transparent;
+    margin-top: 30px;
+    font-size: 25px;
+    border-radius: 25px;
+    padding: 8px 20px 8px 20px;
+}
+.main button:hover{
+    color: white;
+    transition: 0.5s;
+    background-color: #000000;
+    padding: 8.2px 22px 8.2px 22px;
+    border: 1px solid white;
+    font-weight: bold;
+
+}
+
+/* quiz page styling =============== */
+.question-div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 50%;
+    height: 50%;
+    box-shadow: rgb(31, 30, 30) 1px 1px 10px;
+    background-color: turquoise;
+    text-align: center;
+}
+.question-div h1{
+    color: black;
+    background-color: wheat;
+    /* font-size: 25px; */
+}
+.question-div li{
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive ==================== */
+@media only screen and (max-width: 600px){
+       .main h1{
+        margin: 20px;
+    }
+    .main ol{
+        width: 80% !important;
+        margin-top: 50px;
+    }
+    .main h3{
+        margin-top: 40px;
+        width: 95%;
+    }
+}
